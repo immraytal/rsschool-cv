@@ -28,14 +28,14 @@ Who knows, maybe in future I'll to try scriptwriting or game development.
 
 ---
 
-###Skills
+### Skills
 
-#####Languages
+##### Languages
 + English - B1 <br>
 + Polish - Basics <br>
 + Russian - Native <br>
 
-#####Hard skills
+##### Hard skills
 
 + Creating web applications with monolith and microservice architectures using Spring stack. <br>
 + Working with SQL\noSQL databases <br>
@@ -44,7 +44,7 @@ Who knows, maybe in future I'll to try scriptwriting or game development.
 
 ---
 
-###Code sample
+### Code sample
 
 **Task:** String ends with?
 
@@ -63,12 +63,12 @@ public class Kata {
 
 ---
 
-###Experience
+### Experience
 
-#####Bank signing service (10.2020 - Present) 
+##### Bank signing service (10.2020 - Present) 
 My current project is signing service which provides signing without printing something on the paper.
 I'm writing APIs, tests, specifications. Making rtf-templates of claims in Oracle BI Publisher. 
 Moving entire modules to other platforms.   
 
-#####Corporate Portal (8.2020 - 11.2020)
+##### Corporate Portal (8.2020 - 11.2020)
 It was a corporate portal of big airline company. I was writing APIs, unit-tests and working with databases.
