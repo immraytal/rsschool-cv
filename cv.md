@@ -57,6 +57,9 @@ public class Kata {
   }
 }
 ```
+---
+
+**Diploma project on [GitHub](https://github.com/immraytal/Porechanka)**
 
 ---
 
