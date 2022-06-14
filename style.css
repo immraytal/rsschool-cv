@@ -103,9 +103,20 @@
 
 footer {
     width: 100%;
-    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 80px;
+    align-items:flex-end;
+}
+
+.footer-item{
+    display: inline;
+    padding: 0 3px;
+    font-size: 18px;
+}
+
+footer img {
+    width: 200px;
+    
 }
