@@ -10,19 +10,21 @@
 }
 
 .cv-header-left-part {
-    width: 90%;
+    width: 100vw;
     float: left;
     text-align: center;
 }
 
 .cv-header-right-part {
-    float: right;
+    position: absolute;
+    right: 15px;
 }
 
 .main li {
     list-style-type: none;
+    display: inline;
+    padding: 0 15px;
 }
-
 
 .item {
     margin-top: 5px;
