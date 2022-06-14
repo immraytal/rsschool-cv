@@ -1,13 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My CV</title>
 </head>
 <body>
+    <main>
+        <div class="cv-header">
+            <div class="cv-header-left-part">
+                <h1 class="personal-name">
+                    Andrei
+                    <br>
+                    Kisel
+                </h1>
+                <h2 class="personal-position">Software Engineer</h2>
+            </div>
+            <div class="cv-header-right-part">
+            <nav class="list">
+                <ul class="main">
+                  <li class="item"><a href="#about">About me</a></li>
+                  <li class="item"><a href="#education">Education</a></li>
+                  <li class="item"><a href="#experience">Experience</a></li>
+                  <li class="item"><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cv-photo">
+                <img src="assets/images/photo.png" alt="it is me">
+            </div>   
+            <div class="left-part">
+                <section id="about" class="section">
+                    <div class="block">
+                        <div class="block-header">ABOUT</div> 
+                        <div class="block-content">
+                            <div class="block-content-body">
+                                <p>
+                                    I'm a java software engineer, and I graduated from the university a one year ago.<br>
+                                    I have almost 2 years enterprise experience.<br>
+                                    <br> 
+                                    I'd like to learn basics of JS and relevant technologies to become as full-stack developer.<br>
+                                    <br>
+                                    So, I'm just enjoying life and I need interesting and good job to make new friends and have a good time.<br>
+                                    I love to learn interesting things, listen music, analyze games and spend time with my friends.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
+                <section id="education" class="section">
+                    <div class="block">
+                        <div class="block-header">EDUCATION</div> 
+                        <div class="block-content">
+                            <div class="block-content-header">
+                                <div class="block-content-header-time">2017 - 2021</div>
+                                GRODNO STATE UNIVERSITY NAME OF YANKA KUPALA
+                            </div>
+                            <div class="block-content-body">
+                                B.Sc. Faculty of Mathematics and Computer Science. Applied Math
+                                <br>
+                                GPA: 8 out of 10
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experience" class="section">
+                    <div class="block">
+                        <div class="block-header">WORK EXPERIENCE</div> 
+                        <div class="block-content">
+                            <div class="block-content-header">
+                                <div class="block-content-header-time">08/2020 - PRESENT</div>
+                                SENLA
+                            </div>
+                            <div class="block-content-body">
+                                Software Engineer. Java Department.
+                                <br>
+                                <ul>
+                                    <li>Creating web applications with monolith and microservice architectures using Spring stack</li>
+                                    <li>Working with SQL\noSQL databases</li>
+                                    <li>Writing unit tests and bug fixing</li>
+                                    <li>API Development and Web Services / APIs (REST / SOAP / JSON / XML)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="skills" class="section">
+                    <div class="block">
+                        <div class="block-header">SKILLS</div> 
+                        <div class="block-content">
+                            <div class="block-content-body">
+                                <ul>
+                                    <li>
+                                        <strong>Java:</strong>
+                                        <a>Advanced</a>
+                                    </li>
+                                    <li>
+                                        <strong>JavaScript:</strong>
+                                        <a>Beginner</a>
+                                    </li>
+                                    <li>
+                                        <strong>CSS:</strong>
+                                        <a>Beginner</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="code-sample">
+                                Code example:
+                                <pre>
+                                    <code>
+                    public class Kata {
+                        public static boolean solution(String str, String ending) {
+                            return str.length() >= ending.length() ? 
+                                str.substring(str.length() - ending.length()).equals(ending) : false;
+                        }
+                    }
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="right-part">
+                <div class="block">
+                    <div class="block-header">CONTACTS</div> 
+                    <div class="block-content">
+                        <div class="block-content-body">
+                            <ul>
+                                <li>
+                                    <strong>MOB.:</strong>
+                                    <a href="tel:+375292042387" target="_blank">+375292042387</a>
+                                </li>
+                                <li>
+                                    <strong>E-MAIL:</strong>
+                                    <a href="mailto:andrey.kiselv@gmail.com" target="_blank">andrey.kiselv@gmail.com</a>
+                                </li>
+                                <li>
+                                    <strong>CITY:</strong>
+                                    <a href="https://goo.gl/maps/qNjyKXNbuVnXQgfHA" target="_blank">Grodno, Belarus</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-header">LANGUAGES</div> 
+                    <div class="block-content">
+                        <div class="block-content-body">
+                            <ul>
+                                <li>
+                                    <strong>Russian:</strong>
+                                    <a>Native</a>
+                                </li>
+                                <li>
+                                    <strong>English:</strong>
+                                    <a>B1</a>
+                                </li>
+                                <li>
+                                    <strong>Polish:</strong>
+                                    <a>A1</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-header">COURSES</div> 
+                    <div class="block-content">
+                        <div class="block-content-body">
+                            <ul>
+                                <li>
+                                    <a class="block-content-header">
+                                        EPAM TRAINING CENTER SOFTWARE ENGINEERING
+                                    </a>
+                                    <br>
+                                    <a>JAVA Development 120-hours course</a>                                
+                                </li>
+                                <li>
+                                    <a class="block-content-header">
+                                        SENLA
+                                    </a>
+                                    <br>
+                                    <a>Java Full Course from Junior to Middle</a>  
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-body">
+            <p class="footer-item">©</p>
+            <p class="footer-item">2022</p>
+            <a href="https://github.com/immraytal" class="footer-item">immraytal</a>
+        </div>
+        
+        <a href="https://rs.school/js-stage0/" id="school_link">
+            <img src="assets/images/rs_school_js.svg" alt="rs school logo">
+        </a>
+    </footer>
 </body>
 </html>
